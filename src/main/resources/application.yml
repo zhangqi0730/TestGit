@@ -1,0 +1,13 @@
+server:
+  port: 9090
+  context-path: /wxsmallpro
+
+jdbc:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/wxsmallpro?userUnicode=true&amp;charsetEncoding=utf8
+  username: root
+  password: root
+
+mybatisConfigPath: mybatis-config.xml
+mapperPath: com/zhangqi/model/mapper/*
+entityPackage: com.zhangqi.model
